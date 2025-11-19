@@ -1,0 +1,45 @@
+{
+  "name": "SkySoar Ultimate Flight",
+  "short_name": "SkySoar",
+  "id": "skysoar-pro-v1",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone", "minimal-ui"],
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "orientation": "landscape",
+  "categories": ["games", "simulation", "entertainment"],
+  "description": "Experience high-fidelity 3D flight in the browser. Explore infinite biomes, weather systems, and compete on global leaderboards.",
+  "launch_handler": {
+    "client_mode": "focus-existing"
+  },
+  "icons": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512' style='background:%230f172a'%3E%3Ctext x='50%25' y='50%25' dy='.35em' text-anchor='middle' font-size='300' fill='white'%3E🦅%3C/text%3E%3C/svg%3E",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512' style='background:%230f172a'%3E%3Ctext x='50%25' y='50%25' dy='.35em' text-anchor='middle' font-size='300' fill='white'%3E🦅%3C/text%3E%3C/svg%3E",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Quick Dive",
+      "short_name": "Dive",
+      "url": "./index.html?action=dive",
+      "icons": [
+        {
+          "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192' style='background:%23fbbf24'%3E%3Ctext x='50%25' y='50%25' dy='.35em' text-anchor='middle' font-size='100' fill='black'%3E⚡%3C/text%3E%3C/svg%3E",
+          "sizes": "192x192",
+          "type": "image/svg+xml"
+        }
+      ]
+    }
+  ]
+}
